@@ -1,0 +1,12 @@
+<nav class="">
+    <div class="p-3 bg-info text-white d-flex  justify-content-between">
+        <div class="order-1">
+            <button class="btn btn-dark" (click)="OpenPage('Home')">Home</button>
+        </div>
+        <div class="order-2 p-1 bg-white">
+            <button class="btn btn-success" (click)="OpenPage('AddCustomer')">Add Customer</button>
+            <button class="btn btn-warning ml-2" (click)="OpenPage('showcustomers')">Show Customer</button>
+        </div>
+    </div>
+</nav>
+<router-outlet></router-outlet>
